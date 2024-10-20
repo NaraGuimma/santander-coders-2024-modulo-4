@@ -141,7 +141,7 @@ class NewsDataProcessor:
           .format('delta') \
           .mode("overwrite") \
           .partitionBy("from_date") \
-          .parquet(self.output_path)
+          .save(self.output_path)
         print(f"Dados salvos com sucesso em {from_date}")
 
 def main():
