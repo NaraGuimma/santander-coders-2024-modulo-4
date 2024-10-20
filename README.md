@@ -34,9 +34,21 @@ O sistema foi desenhado para executar várias atividades essenciais:
    - **Opção 1 - Apache Kafka e Spark Streaming:**
      - Implementamos um pipeline de dados usando Apache Kafka e Spark Streaming, capaz de consumir eventos em tempo real e armazenar dados temporariamente para uma verificação paralela.
      - Após a verificação, os dados são inseridos no destino principal de armazenamento, evitando duplicações.
+    
+<img width="1083" alt="image" src="https://github.com/user-attachments/assets/a6fd52f7-27c1-40bf-b00a-ddd728451a58">
+
+<p align="center">Desenho da solução usando Kafka</p>
+
 
    - **Opção 2 - Webhooks com Notificações por Eventos:**
      - Configuramos um webhook para receber dados a partir de um evento representado por uma requisição POST. As notícias adquiridas por esse método são armazenadas temporariamente e verificadas antes de serem inseridas no destino final, evitando dados duplicados.
+
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/ecc2c71f-79ed-4da8-b3b5-1659cb1f64c4">
+
+
+<p align="center">Desenho da solução usando Webhook</p>
+
+
 
 6. **Orquestração e Harmonização:**
    - Utilizamos o Prefect para orquestrar o fluxo de dados, garantindo que as agregações e transformações sejam atualizadas diariamente.
