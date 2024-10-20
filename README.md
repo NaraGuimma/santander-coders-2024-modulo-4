@@ -90,4 +90,4 @@ O sistema foi desenhado para executar várias atividades essenciais:
 
 ## Conclusão
 
-Este sistema oferece uma solução completa para o monitoramento de avanços no campo da genômica, garantindo que as notícias e descobertas mais relevantes sejam processadas, filtradas e disponibilizadas para análise. A combinação de pipelines de dados robustos, eventos em tempo real e orquestração automática permite à HealthGen se manter na vanguarda da pesquisa em medicina personalizada.
+Este sistema oferece uma solução completa para o monitoramento de avanços no campo da genômica, garantindo que as notícias e descobertas mais relevantes sejam processadas, filtradas e disponibilizadas para análise. A combinação de pipelines de dados, eventos em tempo real e orquestração automática permite à HealthGen se manter na vanguarda da pesquisa em medicina personalizada.
