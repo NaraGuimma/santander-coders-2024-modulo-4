@@ -1,6 +1,3 @@
-# Databricks notebook source
-!pip install -r 
-
 # COMMAND ----------
 
 import requests
