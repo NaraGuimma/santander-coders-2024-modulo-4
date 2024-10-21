@@ -49,6 +49,7 @@ O sistema foi desenhado para executar várias atividades essenciais:
 <p align="center">Desenho da solução usando Webhook</p>
 
 
+Optamos pelo uso de webhook com notificações por eventos
 
 6. **Orquestração e Harmonização:**
    - Utilizamos o Prefect para orquestrar o fluxo de dados, garantindo que as agregações e transformações sejam atualizadas diariamente.
